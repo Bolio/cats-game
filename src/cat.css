@@ -1,0 +1,126 @@
+body, div {
+    margin: 0; padding: 0;
+}
+
+.main {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main-cat {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.cat {
+    position: relative;
+    width: 602px;
+    height: 602px;
+    margin: 0 auto;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.main-cat .cat div div img {
+    opacity: 0;
+}
+
+.main-cat .cat div div img[src *= "https://"] {
+    opacity: 1;
+}
+
+.panel-of-players {
+    position: relative;
+    display: inline-block;
+    top: -490px;
+    width: 20%;
+}
+
+.panel-of-players div {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.panel-of-players div label {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.panel-of-players div p {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+}
+
+.panel-of-players div p[title = 'Jugador #1'] {
+    color: dodgerblue;
+}
+
+.panel-of-players div p[title = 'Jugador #2'] {
+    color: red;
+}
+
+.row {
+    position: relative;
+    height: 200px;
+    width: 602px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#row-one {
+    border-bottom: 1px black solid;
+}
+#row-three {
+    border-top: 1px black solid;
+}
+
+#row-one .column {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#row-two .column {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#row-three .column {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#column-one {
+    border-right: 1px black solid;
+}
+
+#column-three {
+    border-left: 1px black solid;
+}
+
+#column-four {
+    border-right: 1px black solid;
+}
+
+#column-six {
+    border-left: 1px black solid;
+}
+
+#column-seven {
+    border-right: 1px black solid;
+}
+
+#column-nine {
+    border-left: 1px black solid;
+}
